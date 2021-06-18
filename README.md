@@ -3,7 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=theunsolveddev&label=Profile%20views&color=0e75b6&style=flat" alt="theunsolveddev" /> </p>
 
-- 🔭 I’m currently working on [Machine-Learning-with-Tensorflow-2](https://github.com/TheUnsolvedDev/Machine-Learning-with-Tensorflow-2)
+- 🔭 I’m currently working on [Machine-Learning-with-Tensorflow-2](https://github.com/TheUnsolvedDev/Machine-Learning-with-Tensorflow-2) & [Quadruped Robot](https://github.com/TheUnsolvedDev/Spider-Bot)
+
 
 - 🌱 I’m currently learning **Stm32,FreeRTOS,Tensorflow**
 

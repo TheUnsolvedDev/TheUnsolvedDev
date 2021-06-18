@@ -35,7 +35,7 @@
 ## Top Languages :
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=theunsolveddev&theme=radical)
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=theunsolveddev&show_icons=true&locale=en" alt="theunsolveddev" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=theunsolveddev&show_icons=true&locale=en&theme=radical" alt="theunsolveddev" /></p>
 <br>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=theunsolveddev&" alt="theunsolveddev" /></p>
 

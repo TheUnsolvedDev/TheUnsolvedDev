@@ -1,10 +1,8 @@
 <h1 align="center">Hi 👋, I'm Shuvrajeet Das</h1>
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jashaswimalyaacharjee@gmail.com)](mailto:jashaswimalyaacharjee@gmail.com)
-[![Linkedin Badge](https://img.shields.io/badge/-Jashaswimalya_Acharjee-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/shuvrajeet-das-786408185/)]
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=theunsolveddev&label=Profile%20views&color=0e75b6&style=flat" alt="theunsolveddev" /> </p>
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shuvrajeet17@gmail.com)](mailto:shuvrajeet17@gmail.com)
-- 🔭 I’m currently working on [Machine-Learning-with-Tensorflow-2](https://github.com/TheUnsolvedDev/Machine-Learning-with-Tensorflow-2) & [Quadruped Robot](https://github.com/TheUnsolvedDev/Spider-Bot)
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=theunsolveddev&label=Profile%20views&color=0e75b6&style=flat" alt="theunsolveddev" /> </p>
+
+- 🔭 I’m currently working on [Machine-Learning-with-Tensorflow-2](https://github.com/TheUnsolvedDev/Machine-Learning-with-Tensorflow-2) & [Quadruped Robot](https://github.com/TheUnsolvedDev/Spider-Bot)
 
 - 🌱 I’m currently learning **Stm32,FreeRTOS,Tensorflow**
 

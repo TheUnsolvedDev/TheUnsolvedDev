@@ -15,7 +15,8 @@
 
 ## Distro I'm Currently On:
   - Ubuntu 21.04
-  - Ubuntu Server
+  - Windows 10 
+  - Manjaro
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

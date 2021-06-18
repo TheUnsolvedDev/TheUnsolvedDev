@@ -13,6 +13,10 @@
 
 - 📫 How to reach me **shuvrajeet17@gmail.com**
 
+## Distro I'm Currently On:
+  - Ubuntu 21.04
+  - Ubuntu Server
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/shuvrajeet-das-786408185" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shuvrajeet-das-786408185" height="30" width="40" /></a>

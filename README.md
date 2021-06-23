@@ -17,7 +17,7 @@ I am Shuvrajeet Das, a noob programmer basically seeking for solving the unknown
 ## Distro I'm Currently On:
   - Ubuntu 21.04
   - Windows 10 
-  - Manjaro
+  - Manjaro XFCE
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

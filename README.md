@@ -57,5 +57,6 @@ I am Shuvrajeet Das, a programmer basically seeking for solving the unknown myst
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=theunsolveddev&show_icons=true&locale=en&theme=radical" alt="theunsolveddev" /></p>
 <br>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=theunsolveddev&" alt="theunsolveddev" /></p>
+<!--
 <p><img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&no-frame=true"></p>
-
+-->

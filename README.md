@@ -18,6 +18,7 @@ I am Shuvrajeet Das, a programmer basically seeking for solving the unknown myst
   - Ubuntu 21.04
   - Windows 10 
   - Manjaro XFCE
+  - Debian 11(Mostly)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

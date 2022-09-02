@@ -6,7 +6,7 @@ I am Shuvrajeet Das, a programmer basically seeking for solving the unknown myst
 
 - 🔭 I’m currently working on [Machine-Learning-with-Tensorflow-2](https://github.com/TheUnsolvedDev/Machine-Learning-with-Tensorflow-2) & [Reinforcement-Learning](https://github.com/TheUnsolvedDev/Reinforcement-Learning-Study)
 
-- 🌱 I’m currently learning **Reinforcement-Learning and NLP**
+- 🌱 I’m currently learning **Reinforcement-Learning and Probabilistic Machine Learning**
 
 - 🤝 I’m looking for help with [Quadruped Robot](https://github.com/TheUnsolvedDev/Spider-Bot)
 

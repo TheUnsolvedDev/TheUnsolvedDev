@@ -4,7 +4,7 @@
 
 I am Shuvrajeet Das, a programmer basically seeking for solving the unknown mysteries present everywhere. Optimistic in nature. Loves Machine Learning. Craze for Deep Learning. Animation enthusiasts...
 
-- 🔭 I’m currently working on [Machine-Learning-with-Tensorflow-2](https://github.com/TheUnsolvedDev/Machine-Learning-with-Tensorflow-2) & [Reinforcement-Learning](https://github.com/TheUnsolvedDev/Reinforcement-Learning-Study)
+- 🔭 I’m currently working on Machine-Learning-with-Tensorflow-2.
 
 - 🌱 I’m currently learning **Reinforcement-Learning and Probabilistic Machine Learning**
 

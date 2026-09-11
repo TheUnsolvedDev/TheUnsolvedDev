@@ -16,7 +16,7 @@ Open http://localhost:8000. Use HTTP, not `file://`, because the explorer loads 
 
 ## Pages and content
 
-- `index.html`: laboratory, explorer, profile research highlights, conceptual hardware diagram, artifact inventory, repository map, and about section.
+- `index.html`: personal introduction, biography, academic background, six research interests, selected projects, laboratory explorer, hardware diagram, repository map, working philosophy, toolkit, documented setup, and contact/social profiles.
 - `algorithm.html?id=...`: shared detail page with original README text, operation markers, source-file selection, Python highlighting, line numbers, and copy control.
 - `data/algorithms.json`: generated index and inventory; individual JSON files contain exact source snapshots loaded only on demand.
 
@@ -48,4 +48,4 @@ Semantic sections, skip links, visible focus styles, labeled search, live result
 
 ## Checks
 
-`scripts/check_site.py` verifies local assets, navigation anchors, catalog counts, real source paths, and exact source snapshots. `scripts/browser_audit.mjs` exercises Chromium through its debugging interface when a local server and debug browser are running; see its header for usage. Test fixtures used by the browser audit are deliberately outside the shipped site.
+`scripts/check_site.py` verifies local assets, navigation anchors, catalog counts, real source paths, and exact source snapshots. Browser validation requires a local server and a browser permitted to run in the environment; static checks alone do not establish responsive rendering or interaction correctness.

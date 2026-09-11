@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/TheUnsolvedDev/TheUnsolvedDev",
-  "revision": "7739b6ff8b1b43b43141e90332abd5bd7fb97002",
+  "revision": "15ec3967cd8bc46edcb5c28d911cdeda9aa31358",
   "algorithms": [],
   "inventory": {
     "python": [],
@@ -10,13 +10,13 @@
     "configuration": [
       {
         "path": ".github/workflows/deploy-pages.yml",
-        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/.github/workflows/deploy-pages.yml"
+        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/.github/workflows/deploy-pages.yml"
       }
     ],
     "documentation": [
       {
         "path": "README.md",
-        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
       }
     ],
     "other": []
@@ -33,7 +33,13 @@
         "Legal-action masking",
         "Vectorized environments"
       ],
-      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+      "details": [
+        "AlphaZero-style observations and action representations.",
+        "PPO agents and comparisons with random, Syzygy, and Stockfish agents.",
+        "Experiments with endgame positions and multi-GPU training."
+      ],
+      "project_url": "",
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
     },
     {
       "name": "\ud83d\udd34\ud83d\udfe1 Connect Four Agents",
@@ -45,7 +51,13 @@
         "Minimax",
         "Bitboards"
       ],
-      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+      "details": [
+        "Vectorized environments with canonical observations.",
+        "Masked action selection and efficient board representations.",
+        "Evaluation against random and search-based opponents."
+      ],
+      "project_url": "",
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
     },
     {
       "name": "\u26cf\ufe0f Minecraft Reinforcement Learning",
@@ -56,7 +68,13 @@
         "PPO",
         "Parallel rollouts"
       ],
-      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+      "details": [
+        "Working with observation and action interfaces.",
+        "Investigating CPU environment execution with GPU-based agents.",
+        "Exploring longer-horizon learning and evaluation workflows."
+      ],
+      "project_url": "",
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
     },
     {
       "name": "\ud83d\udd77\ufe0f Spider-Bot",
@@ -66,7 +84,9 @@
         "Control",
         "Hardware"
       ],
-      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+      "details": [],
+      "project_url": "https://github.com/TheUnsolvedDev/Spider-Bot",
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
     }
   ],
   "stats": {

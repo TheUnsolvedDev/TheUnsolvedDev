@@ -83,7 +83,11 @@ def build(root, output):
     highlights = []
     block = readme_text.split('## 🚀 Project highlights')[-1].split('\n---')[0] if '## 🚀 Project highlights' in readme_text else ''
     for title, body in re.findall(r'### ([^\n]+)\n(.*?)(?=\n### |\Z)', block, re.S):
-        highlights.append({'name': title, 'description': body.strip().split('\n')[0], 'tags': re.findall(r'`([^`]+)`', body), 'url': url(readme)})
+        project_links = re.findall(r'\]\((https://github\.com/[^)]+)\)', body)
+        highlights.append({'name': title, 'description': body.strip().split('\n')[0],
+                           'tags': re.findall(r'`([^`]+)`', body),
+                           'details': re.findall(r'^- (.+)$', body, re.M),
+                           'project_url': project_links[0] if project_links else '', 'url': url(readme)})
     result = {'repository': remote, 'revision': revision, 'algorithms': records, 'inventory': inventory,
               'todos': todos, 'warnings': warnings, 'highlights': highlights,
               'stats': {'modules': len(records), 'categories': len({r['category'] for r in records}),

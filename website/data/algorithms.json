@@ -1,0 +1,80 @@
+{
+  "repository": "https://github.com/TheUnsolvedDev/TheUnsolvedDev",
+  "revision": "7739b6ff8b1b43b43141e90332abd5bd7fb97002",
+  "algorithms": [],
+  "inventory": {
+    "python": [],
+    "notebooks": [],
+    "images": [],
+    "data": [],
+    "configuration": [
+      {
+        "path": ".github/workflows/deploy-pages.yml",
+        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/.github/workflows/deploy-pages.yml"
+      }
+    ],
+    "documentation": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+      }
+    ],
+    "other": []
+  },
+  "todos": [],
+  "warnings": [],
+  "highlights": [
+    {
+      "name": "\u265f\ufe0f Reinforcement Learning for Chess",
+      "description": "Exploring self-play and learning-based decision-making in chess.",
+      "tags": [
+        "Self-play",
+        "Policy & value networks",
+        "Legal-action masking",
+        "Vectorized environments"
+      ],
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+    },
+    {
+      "name": "\ud83d\udd34\ud83d\udfe1 Connect Four Agents",
+      "description": "A compact environment for studying competitive reinforcement learning.",
+      "tags": [
+        "DQN",
+        "Dueling DQN",
+        "PPO",
+        "Minimax",
+        "Bitboards"
+      ],
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+    },
+    {
+      "name": "\u26cf\ufe0f Minecraft Reinforcement Learning",
+      "description": "Exploring the challenges of learning in richer interactive environments.",
+      "tags": [
+        "MineRL",
+        "Environment integration",
+        "PPO",
+        "Parallel rollouts"
+      ],
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+    },
+    {
+      "name": "\ud83d\udd77\ufe0f Spider-Bot",
+      "description": "A robotics project bringing together software and physical interaction.",
+      "tags": [
+        "Robotics",
+        "Control",
+        "Hardware"
+      ],
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/7739b6ff8b1b43b43141e90332abd5bd7fb97002/README.md"
+    }
+  ],
+  "stats": {
+    "modules": 0,
+    "categories": 0,
+    "python": 0,
+    "notebooks": 0,
+    "documents": 1
+  },
+  "methodology": "Recursive file inventory excludes website tooling, tests, hidden environment folders and symlinks. Catalog entries group Python files by directories containing a direct TensorFlow import. Source presence is not proof of completeness, correctness, or an algorithm count. Notebook-only and indirect imports are inventoried but not automatically cataloged."
+}

@@ -1,4 +1,7 @@
 <!-- HEADER -->
+<!-- The research website complements this authoritative profile. -->
+[Explore the research laboratory](https://theunsolveddev.github.io/TheUnsolvedDev/) · [Website setup and content notes](website/README.md)
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:7C3AED,100:22D3EE&height=220&section=header&text=Shuvrajeet%20Das&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Research.%20Build.%20Explore.%20Repeat.&descAlignY=58&descSize=20" width="100%" alt="Shuvrajeet Das — Research. Build. Explore. Repeat." />
 </p>

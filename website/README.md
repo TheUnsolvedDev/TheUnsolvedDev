@@ -17,7 +17,7 @@ Open http://localhost:8000. Use HTTP, not `file://`, because the explorer loads 
 ## Pages and content
 
 - `index.html`: personal introduction, biography, academic background, six research interests, selected projects, laboratory explorer, hardware diagram, repository map, working philosophy, toolkit, documented setup, and contact/social profiles.
-- `algorithm.html?id=...`: shared detail page with original README text, operation markers, source-file selection, Python highlighting, line numbers, and copy control.
+- The single `index.html` contains the portfolio, work map, expandable project details, and interactive lab.
 - `data/tensorflowai.json`: curated index of implementation families in the separate TensorflowAI repository. Entries link to the original source and documentation.
 - `data/algorithms.json`: generated inventory for this portfolio repository.
 
@@ -33,7 +33,7 @@ The generator inventories Python, notebooks, documentation, images, common datas
 
 Automatic source discovery cannot responsibly supply mathematical explanations, equation-to-code mappings, complexity, difficulty, dataset semantics, implementation completeness, GPU support, or measured results. Those sections need evidence and editorial review when actual implementations arrive. Existing README content is displayed as escaped plain text, not executed HTML or rendered LaTeX. Images are linked as discovered artifacts rather than assumed to be experiment plots. No placeholder algorithms or synthetic benchmark graphics are shipped.
 
-Source links are pinned to the checkout revision. Changes should be committed before deployment so GitHub source URLs resolve to the same content. The workflow regenerates the catalog at the pushed commit.
+TensorflowAI links target its public `main` branch and remain external to this deployment. The portfolio does not copy implementation source.
 
 ## GitHub Pages
 

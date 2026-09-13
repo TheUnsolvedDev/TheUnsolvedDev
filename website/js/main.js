@@ -1,7 +1,6 @@
 'use strict';
 const $ = (s) => document.querySelector(s);
 const escapeHTML = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const detailURL = (id) => `algorithm.html?id=${encodeURIComponent(id)}`;
 const menu = $('.menu-toggle');
 menu.addEventListener('click', () => {const open = menu.getAttribute('aria-expanded') !== 'true'; menu.setAttribute('aria-expanded', open); $('#navigation').classList.toggle('open', open);});
 $('#navigation').addEventListener('click', (e) => {if (e.target.closest('a')) {menu.setAttribute('aria-expanded', 'false'); $('#navigation').classList.remove('open');}});
@@ -47,14 +46,14 @@ async function init() {
       const query = $('#search').value.toLowerCase().trim();
       const filtered = entries.filter(a => (category === 'All' || a.category === category) && [a.name,a.description,a.category,a.framework,...a.tags].join(' ').toLowerCase().includes(query));
       $('#result-count').textContent = `${filtered.length} of ${entries.length} implementation families`;
-      $('#algorithm-grid').innerHTML = filtered.length ? filtered.map((a,i) => `<article class="card"><div class="card-top"><span>${escapeHTML(a.category)}</span><span>${String(i+1).padStart(2,'0')}</span></div><h3><a href="${detailURL(a.id)}">${escapeHTML(a.name)}</a></h3><p>${escapeHTML(a.description)}</p><div class="tags"><span class="tag">${escapeHTML(a.framework)}</span>${a.tags.map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('')}</div><p class="small">${escapeHTML(a.status)}</p><a class="text-link" href="${detailURL(a.id)}">Trace the work →</a></article>`).join('') : `<div class="empty-state"><div class="empty-symbol" aria-hidden="true">[ &nbsp; ∅ &nbsp; ]</div><h3>No matching implementation families</h3><p>Try another name, concept, or category.</p><button class="button secondary" id="reset-search">Reset search and filters</button></div>`;
+      $('#algorithm-grid').innerHTML = filtered.length ? filtered.map((a,i) => `<article class="card"><div class="card-top"><span>${escapeHTML(a.category)}</span><span>${String(i+1).padStart(2,'0')}</span></div><h3>${escapeHTML(a.name)}</h3><p>${escapeHTML(a.description)}</p><div class="tags"><span class="tag">${escapeHTML(a.framework)}</span>${a.tags.map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('')}</div><p class="small">${escapeHTML(a.status)}</p><details class="project-detail"><summary>Trace the work →</summary><p>${escapeHTML(a.path)}</p><a class="text-link" href="https://github.com/TheUnsolvedDev/TensorflowAI/tree/main/${encodeURIComponent(a.path).replace(/%2F/g,'/')}">Open source directory ↗</a><br><a class="text-link" href="https://github.com/TheUnsolvedDev/TensorflowAI/blob/main/${encodeURIComponent(a.readme).replace(/%2F/g,'/')}">Read documentation ↗</a></details></article>`).join('') : `<div class="empty-state"><div class="empty-symbol" aria-hidden="true">[ &nbsp; ∅ &nbsp; ]</div><h3>No matching implementation families</h3><p>Try another name, concept, or category.</p><button class="button secondary" id="reset-search">Reset search and filters</button></div>`;
       const reset = $('#reset-search');
       if (reset) reset.addEventListener('click', () => {$('#search').value = ''; $('#filters button').click(); $('#search').focus();});
     }
     $('#search').addEventListener('input', render); render();
     $('#research-grid').innerHTML = data.highlights.map((h,i) => `<article class="card"><div class="card-top"><span>SELECTED PROJECT</span><span>${String(i+1).padStart(2,'0')} / BUILD</span></div><h3>${escapeHTML(h.name)}</h3><p>${escapeHTML(h.description)}</p><div class="tags">${h.tags.map(t=>`<span class="tag">${escapeHTML(t)}</span>`).join('')}</div>${h.details?.length ? `<ul class="project-details">${h.details.map(t=>`<li>${escapeHTML(t)}</li>`).join('')}</ul>` : ''}<a class="text-link" href="${escapeHTML(h.project_url || h.url)}">${h.project_url ? 'Explore the repository' : 'Read the project background'} ↗</a></article>`).join('');
     $('#repo-tree').innerHTML = Object.entries(data.inventory).filter(([,items]) => items.length).map(([type,items]) => `<details open><summary>${escapeHTML(type)} <span class="small">(${items.length})</span></summary>${items.map(item => `<a href="${escapeHTML(item.url)}">↳ ${escapeHTML(item.path)} ↗</a>`).join('')}</details>`).join('');
-    $('#learning-links').innerHTML = entries.slice(0,6).map(a=>`<a class="text-link" href="${detailURL(a.id)}">${escapeHTML(a.category)} / ${escapeHTML(a.name)} →</a>`).join('');
+    $('#learning-links').innerHTML = entries.slice(0,6).map(a=>`<a class="text-link" href="#explorer" data-focus-entry="${escapeHTML(a.id)}">${escapeHTML(a.category)} / ${escapeHTML(a.name)} →</a>`).join('');
     const artifacts = [...data.inventory.images,...data.inventory.data,...data.inventory.notebooks];
     if (artifacts.length) {
       $('.experiment-empty h3').textContent = 'Artifacts in the repository';

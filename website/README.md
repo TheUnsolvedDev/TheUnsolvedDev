@@ -18,15 +18,16 @@ Open http://localhost:8000. Use HTTP, not `file://`, because the explorer loads 
 
 - `index.html`: personal introduction, biography, academic background, six research interests, selected projects, laboratory explorer, hardware diagram, repository map, working philosophy, toolkit, documented setup, and contact/social profiles.
 - `algorithm.html?id=...`: shared detail page with original README text, operation markers, source-file selection, Python highlighting, line numbers, and copy control.
-- `data/algorithms.json`: generated index and inventory; individual JSON files contain exact source snapshots loaded only on demand.
+- `data/tensorflowai.json`: curated index of implementation families in the separate TensorflowAI repository. Entries link to the original source and documentation.
+- `data/algorithms.json`: generated inventory for this portfolio repository.
 
-The inspected project originally contained **only the profile README**. There are no local algorithms, datasets, notebooks, plots, benchmarks, or environment files. Profile project mentions are not local algorithm entries. The website explicitly shows an empty catalog and does not invent details, equations, or results.
+The portfolio repository contains the site and profile content; the implementation catalog points to the separate TensorflowAI repository. The site does not copy source, invent details, or claim numerical results.
 
 Research/about copy is a concise editorial adaptation of the root README. Project highlight cards are extracted from its “Project highlights” section. Review the editorial copy if the profile changes. The root and nested READMEs remain authoritative.
 
 ## Updating the catalog
 
-Add real implementation directories to this repository and run the generator again. It uses Python's AST to detect direct TensorFlow imports and groups neighboring source files by directory. It never runs implementation code or needs TensorFlow installed. Discovered entries say **Source present · unverified**; directory groups are not claimed to be distinct algorithms.
+The TensorflowAI catalog is curated because its source lives outside this deployment repository. Update `data/tensorflowai.json` when the external repository changes, and keep each description tied to its README or source directory.
 
 The generator inventories Python, notebooks, documentation, images, common dataset extensions, configuration, TODO/FIXME markers, and other project files. It excludes website tooling, scripts, tests, environment directories, and symlinks. Notebook-only implementations and indirect imports need manual review; they are inventoried but not automatically cataloged. A dependency manifest alone is insufficient evidence of an implementation.
 

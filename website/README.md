@@ -18,22 +18,22 @@ Open http://localhost:8000. Use HTTP, not `file://`, because the explorer loads 
 
 - `index.html`: personal introduction, biography, academic background, six research interests, selected projects, laboratory explorer, hardware diagram, repository map, working philosophy, toolkit, documented setup, and contact/social profiles.
 - The single `index.html` contains the portfolio, work map, expandable project details, and interactive lab.
-- `data/tensorflowai.json`: curated index of implementation families in the separate TensorflowAI repository. Entries link to the original source and documentation.
+- `data/tensorflowai.json`: curated index of implementation families across the separate TensorflowAI, ReinforcementLearning, and JaxStormer repositories. Entries link to original documentation and source directories when available.
 - `data/algorithms.json`: generated inventory for this portfolio repository.
 
-The portfolio repository contains the site and profile content; the implementation catalog points to the separate TensorflowAI repository. The site does not copy source, invent details, or claim numerical results.
+The portfolio repository contains the site and profile content; the implementation catalog points to separate public repositories. The site does not copy source, invent details, or claim numerical results.
 
 Research/about copy is a concise editorial adaptation of the root README. Project highlight cards are extracted from its “Project highlights” section. Review the editorial copy if the profile changes. The root and nested READMEs remain authoritative.
 
 ## Updating the catalog
 
-The TensorflowAI catalog is curated because its source lives outside this deployment repository. Update `data/tensorflowai.json` when the external repository changes, and keep each description tied to its README or source directory.
+The catalog is curated because its source repositories live outside this deployment repository. Update `data/tensorflowai.json` when an external repository changes, and keep each description tied to its README or source directory.
 
 The generator inventories Python, notebooks, documentation, images, common dataset extensions, configuration, TODO/FIXME markers, and other project files. It excludes website tooling, scripts, tests, environment directories, and symlinks. Notebook-only implementations and indirect imports need manual review; they are inventoried but not automatically cataloged. A dependency manifest alone is insufficient evidence of an implementation.
 
 Automatic source discovery cannot responsibly supply mathematical explanations, equation-to-code mappings, complexity, difficulty, dataset semantics, implementation completeness, GPU support, or measured results. Those sections need evidence and editorial review when actual implementations arrive. Existing README content is displayed as escaped plain text, not executed HTML or rendered LaTeX. Images are linked as discovered artifacts rather than assumed to be experiment plots. No placeholder algorithms or synthetic benchmark graphics are shipped.
 
-TensorflowAI links target its public `main` branch and remain external to this deployment. The portfolio does not copy implementation source.
+External repository links target their public `main` branches and remain outside this deployment. The portfolio does not copy implementation source.
 
 ## GitHub Pages
 

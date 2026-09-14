@@ -128,6 +128,26 @@ A robotics project bringing together software and physical interaction.
 
 [**Explore the repository →**](https://github.com/TheUnsolvedDev/Spider-Bot)
 
+### 🧠 Reinforcement Learning Study
+A focused study repository for implementing reinforcement-learning algorithms in Python.
+
+`Dynamic programming` · `Monte Carlo` · `Temporal difference` · `Deep RL`
+
+- Covers policy and value iteration, multi-armed bandits, Monte Carlo methods, and TD methods.
+- Includes REINFORCE, actor–critic, and vanilla DQN study implementations.
+
+[**Explore the repository →**](https://github.com/TheUnsolvedDev/ReinforcementLearning)
+
+### ⚡ JaxStormer
+A JAX practice laboratory spanning machine learning, deep learning, and reinforcement learning.
+
+`JAX` · `Flax` · `Optax` · `CNNs` · `Reinforcement learning`
+
+- Includes regression, classification, clustering, neural-network, and CNN implementations.
+- Extends the study path toward JAX-based Atari and non-Atari reinforcement-learning experiments.
+
+[**Explore the repository →**](https://github.com/TheUnsolvedDev/JaxStormer)
+
 <p align="center">
   <a href="https://github.com/TheUnsolvedDev?tab=repositories">
     <img src="https://img.shields.io/badge/Explore_All_Repositories-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories" />

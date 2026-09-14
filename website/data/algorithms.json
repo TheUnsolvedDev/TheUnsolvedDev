@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/TheUnsolvedDev/TheUnsolvedDev",
-  "revision": "15ec3967cd8bc46edcb5c28d911cdeda9aa31358",
+  "revision": "c4c107a1a10f1e4d85b8690a10ee612b9dd576df",
   "algorithms": [],
   "inventory": {
     "python": [],
@@ -9,14 +9,14 @@
     "data": [],
     "configuration": [
       {
-        "path": ".github/workflows/deploy-pages.yml",
-        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/.github/workflows/deploy-pages.yml"
+        "path": ".github/workflows/static.yml",
+        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/c4c107a1a10f1e4d85b8690a10ee612b9dd576df/.github/workflows/static.yml"
       }
     ],
     "documentation": [
       {
         "path": "README.md",
-        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
+        "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/c4c107a1a10f1e4d85b8690a10ee612b9dd576df/README.md"
       }
     ],
     "other": []
@@ -39,7 +39,7 @@
         "Experiments with endgame positions and multi-GPU training."
       ],
       "project_url": "",
-      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/c4c107a1a10f1e4d85b8690a10ee612b9dd576df/README.md"
     },
     {
       "name": "\ud83d\udd34\ud83d\udfe1 Connect Four Agents",
@@ -57,7 +57,7 @@
         "Evaluation against random and search-based opponents."
       ],
       "project_url": "",
-      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/c4c107a1a10f1e4d85b8690a10ee612b9dd576df/README.md"
     },
     {
       "name": "\u26cf\ufe0f Minecraft Reinforcement Learning",
@@ -74,7 +74,7 @@
         "Exploring longer-horizon learning and evaluation workflows."
       ],
       "project_url": "",
-      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/c4c107a1a10f1e4d85b8690a10ee612b9dd576df/README.md"
     },
     {
       "name": "\ud83d\udd77\ufe0f Spider-Bot",
@@ -86,7 +86,40 @@
       ],
       "details": [],
       "project_url": "https://github.com/TheUnsolvedDev/Spider-Bot",
-      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/15ec3967cd8bc46edcb5c28d911cdeda9aa31358/README.md"
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/c4c107a1a10f1e4d85b8690a10ee612b9dd576df/README.md"
+    },
+    {
+      "name": "\ud83e\udde0 Reinforcement Learning Study",
+      "description": "A focused study repository for implementing reinforcement-learning algorithms in Python.",
+      "tags": [
+        "Dynamic programming",
+        "Monte Carlo",
+        "Temporal difference",
+        "Deep RL"
+      ],
+      "details": [
+        "Covers policy and value iteration, multi-armed bandits, Monte Carlo methods, and TD methods.",
+        "Includes REINFORCE, actor\u2013critic, and vanilla DQN study implementations."
+      ],
+      "project_url": "https://github.com/TheUnsolvedDev/ReinforcementLearning",
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/c4c107a1a10f1e4d85b8690a10ee612b9dd576df/README.md"
+    },
+    {
+      "name": "\u26a1 JaxStormer",
+      "description": "A JAX practice laboratory spanning machine learning, deep learning, and reinforcement learning.",
+      "tags": [
+        "JAX",
+        "Flax",
+        "Optax",
+        "CNNs",
+        "Reinforcement learning"
+      ],
+      "details": [
+        "Includes regression, classification, clustering, neural-network, and CNN implementations.",
+        "Extends the study path toward JAX-based Atari and non-Atari reinforcement-learning experiments."
+      ],
+      "project_url": "https://github.com/TheUnsolvedDev/JaxStormer",
+      "url": "https://github.com/TheUnsolvedDev/TheUnsolvedDev/blob/c4c107a1a10f1e4d85b8690a10ee612b9dd576df/README.md"
     }
   ],
   "stats": {
